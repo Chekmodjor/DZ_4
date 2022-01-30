@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ac7c8355-a0b8-4366-88cd-fe860da6b3dc}</ProjectGuid>
-    <RootNamespace>My20220130DZ</RootNamespace>
+    <ProjectGuid>{AC7C8355-A0B8-4366-88CD-FE860DA6B3DC}</ProjectGuid>
+    <RootNamespace>My20220130dz</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="20220130_DZ.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Users.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Users.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
